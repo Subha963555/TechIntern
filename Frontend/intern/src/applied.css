@@ -1,0 +1,68 @@
+/* Overall page styling */
+.applied-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Header styling */
+  .applied-header {
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .header-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .header-subtitle {
+    font-size: 1.2em;
+  }
+  
+  /* Main content styling */
+  .main-content {
+    padding: 20px;
+  }
+  
+  /* Internships section styling */
+  .internships-section {
+    padding: 20px;
+  }
+  
+  .internships-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Internship card styling */
+  .internship-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .card-company {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .card-role {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Loading text styling */
+  .loading-text {
+    font-size: 1.2em;
+    color: #666;
+  }
+  

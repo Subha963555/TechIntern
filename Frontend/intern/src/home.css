@@ -1,0 +1,120 @@
+.home-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin-right: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.home-header {
+  background: linear-gradient(135deg, #4a90e2, #50e3c2);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 2em;
+}
+
+.header-subtitle {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.main-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-aligns the content */
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 20px; /* Adds space below the button */
+  border-radius: 5px;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.internships-section {
+  width: 100%;
+}
+
+.section-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center; /* Center-aligns the section title */
+}
+
+.internships-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center-aligns the internship cards */
+}
+
+.internship-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: calc(33% - 20px); /* Adjust width as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-company {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.card-role {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.internship-card p {
+  margin: 5px 0;
+}
+
+.apply-button {
+  background-color:  #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.apply-button:hover {
+  background-color: #388E3C;
+}
+
+.apply-button:disabled {
+  background-color: #9E9E9E;
+  cursor: not-allowed;
+}
+
+.home-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-right: 13px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-text {
+  margin: 0;
+}
